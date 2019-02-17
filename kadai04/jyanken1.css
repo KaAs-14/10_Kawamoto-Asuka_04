@@ -1,0 +1,52 @@
+.header {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    background: darkred;
+    width: 800px;
+    margin: auto auto;
+}
+
+.sentaku{
+    font-size: 30px;
+    font: bold;
+    text-align: center;
+    margin: 80px auto;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 200px;
+    margin: auto;
+}
+
+
+.sentaku1{
+    width: 250px;
+    height: 250px;
+}
+
+.sentaku1 img {
+    width: 100%;
+    margin: auto -80px;
+}
+
+.sentaku2{
+    width: 250px;
+    height: 250px;
+}
+.sentaku2 img {
+    width: 100%;
+}
+
+.sentaku3{
+    width: 250px;
+    height: 250px;
+}
+
+.sentaku3 img {
+    width: 100%;
+    margin: auto 50px;
+}

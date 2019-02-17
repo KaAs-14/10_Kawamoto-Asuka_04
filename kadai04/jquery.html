@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="ex"></div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+
+// ・div#exの要素を作成(html)
+// ・div#exの最初の表示時にフェードインから表示　※4秒
+// ・div#exを作成、文字列”<p>かきくけこ</p>”を挿入
+// ・div#exの背景を黒、文字色を白に変更
+// ・div#exの中、行頭に”<p>あいうえお</p>”を挿入
+// ・div#exの中、末尾に”<p>さしすせそ</p>”を挿入
+// ・難問)div#ex内の偶数行だけ背景白にする
+
+ $("#ex").text("ex");
+ $("#ex").css('display','none').fadeIn(4000);
+ $("#ex").html("<p>かきくけこ</p>");
+ $("#ex").css("background","black");
+ $("#ex").css("color","white");
+ $("#ex").prepend("<p>あいうえお</p>");
+ $("#ex").append("<p>さしすせそ</p>");
+ $(function(){
+    $("#ex").find("tr:even").css("background","white");
+ });
+
+
+    
+    
+    </script>
+
+
+
+
+
+</body>
+</html>

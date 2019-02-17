@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="jyanken2.css">
+</head>
+
+
+<body>
+<div class="box1">
+
+  <div class="pom">
+    じゃーんけーん<br>
+    ぽんっ！
+  </div>
+
+
+
+<div class="flexbox2"> 
+  <!-- <じゃんけん画像挿入> -->  
+  <div class="pa">
+  <img src="janken_pa.png" alt="パーの画像">
+  </div>
+
+
+<div class="aitegazou">
+    <div class="aigu"></div>
+    <div class="aicyoki"></div>
+    <div class="aipa"></div>
+</div>
+
+<!-- ここからJS -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+var a =Math.floor( Math.random() *3+1);
+if(a==1){
+ $(".aigu").html('<img src="janken_gu.png" alt="">');
+};
+if(a==2){
+  $(".aicyoki").html('<img src="janken_choki.png" alt="">');
+};
+if(a==3){
+  $(".aipa").html('<img src="janken_pa.png" alt="">');
+};
+
+
+</script>
+
+
+<!-- JSここまで -->
+
+
+
+
+
+  <!-- PHPの場合
+     <?php 
+
+  // $random =mt_rand(1,3);
+
+  // if ($random ==1){
+  //   echo '<img src="janken_choki.png" alt="">';
+  //   echo '<div class=ykachi>あなたのかち</div>';
+  //   echo '<div class=amake>まけ</div>';
+  // }
+
+  // if ($random ==2){
+  //   echo '<img src="janken_gu.png" alt="">';
+  //   echo '<div class=aiko>あいこ</div>';
+  // }
+  // if ($random ==3){
+  //   echo '<img src="janken_pa.png" alt="">';
+  //   echo '<div class=ymake>あなたのまけ</div>';
+  //   echo '<div class=akachi>かち</div>';
+  // }
+
+  ?> -->
+
+
+<div class=mou1>もう1回する？<br></div>
+
+<div class="onemore">
+    <a href="jyanken+JS.html"><img src="dog3_1_question.png" alt="犬の画像"></a>   
+</div>
+
+</div>
+
+</div>
+</body>
+</html>

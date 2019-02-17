@@ -1,0 +1,140 @@
+.box1{
+    position: relative;
+}
+
+.flexbox2{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 200px;
+    margin: auto;
+}
+
+.pom {
+    text-align: center;
+    font-size: 50px;
+    background: url(hukidashi.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 540px 215px;
+    PADDING: 30px;
+}
+
+.gu{
+    width: 300px;
+    height: 300px;
+}
+
+.gu img{
+    width: 100%;
+}
+
+.choki{
+    width: 300px;
+    height: 300px;
+}
+
+.choki img{
+    width: 100%;
+}
+
+.pa{
+    width: 300px;
+    height: 300px;
+}
+
+.pa img{
+    width: 100%;
+}
+
+.aitegazou{
+
+    width: 300px;
+    height: 300px;
+    
+}
+
+.aitegazou img{
+    width: 100%;
+}
+
+.ykachi{
+    text-align: center;
+    font-size: 70px;
+    position: absolute;
+    left: 0;
+    right: 504px;
+    top: 558px;
+    color: indianred;
+
+}
+
+.amake {
+    text-align: center;
+    font-size: 70px;
+    position: absolute;
+    left: 0;
+    right: -536px;
+    top: 558px;
+    color: slateblue;
+}
+
+.ymake {
+    text-align: center;
+    font-size: 70px;
+    position: absolute;
+    left: 0;
+    right: 504px;
+    top: 558px;
+    color: slateblue;
+}
+
+.akachi{
+    text-align: center;
+    font-size: 70px;
+    position: absolute;
+    left: 0;
+    right: -536px;
+    top: 558px;
+    color: indianred;
+}
+
+.aiko {
+    text-align: center;
+    font-size: 70px;
+    position: absolute;
+    left: 0;
+    right: 0px;
+    top: 558px;
+    color: burlywood;
+}
+
+.flexbox3{
+    display: flex;
+    width: 800px;
+    height: 200px;
+    margin: auto;
+}
+
+
+
+.mou1{
+    font-size: 20px;
+    position: absolute;
+    left: 1060px;
+    right: 0px;
+    top: 28px;
+}
+
+.onemore{
+    position: absolute;
+    left: 1070px;
+    right: 0px;
+    top: 68px;
+    width: 100px;
+    height: 100px;
+}
+
+.onemore img{
+    width: 100%;
+}
